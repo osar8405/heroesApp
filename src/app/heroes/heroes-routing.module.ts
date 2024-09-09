@@ -21,11 +21,11 @@ const routes: Routes = [
         component: SearchPageComponent,
       },
       {
-        path: ' edit/:id',
+        path: 'edit/:id',
         component: NewPageComponent,
       },
       {
-        path: ' list/:id',
+        path: 'list',
         component: ListPageComponent,
       },
       {
@@ -34,7 +34,7 @@ const routes: Routes = [
       },
       {
         path: '**',
-        redirectTo: 'list'
+        redirectTo: 'list',
       },
     ],
   },
